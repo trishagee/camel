@@ -1,0 +1,18 @@
+<gradleEnterprise>
+    <server>
+        <url>https://18.212.219.143.nip.io</url>
+        <allowUntrusted>true</allowUntrusted>
+    </server>
+    <buildCache>
+        <local>
+            <enabled>false</enabled>
+        </local>
+    </buildCache>
+    <buildScan>
+        <capture>
+            <goalInputFiles>true</goalInputFiles>
+        </capture>
+        <backgroundBuildScanUpload>#{env['CI'] == null}</backgroundBuildScanUpload>
+        <publish>ALWAYS</publish>
+    </buildScan>
+</gradleEnterprise>
