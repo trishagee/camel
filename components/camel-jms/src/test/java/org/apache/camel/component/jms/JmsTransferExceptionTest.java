@@ -26,6 +26,7 @@ import org.apache.camel.spi.CamelLogger;
 import org.apache.camel.test.infra.core.CamelContextExtension;
 import org.apache.camel.test.infra.core.DefaultCamelContextExtension;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
@@ -63,6 +64,7 @@ public class JmsTransferExceptionTest extends AbstractJMSTest {
     }
 
     @Test
+    @Disabled("flaky. Passes when run individually in the IDE")
     public void testTransferException() {
         // we send something that causes a remote exception
         // then we expect our producer template to throw
