@@ -109,11 +109,11 @@
                             <testSourceRoot>${basedir}/target/generated/src/test/java</testSourceRoot>
                             <defaultOptions>
                                 <frontEnd>jaxws</frontEnd>
-                                <suppressGeneratedDate>true</suppressGeneratedDate>
                             </defaultOptions>
                             <wsdlOptions>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/person.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                             </wsdlOptions>
                         </configuration>

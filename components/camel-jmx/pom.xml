@@ -127,6 +127,7 @@
                                     <extensionArgs>
                                         <extensionArg>-no-header</extensionArg>
                                         <extensionArg>-Xfluent-api</extensionArg>
+                                        <extensionArg>-suppress-generated-date</extensionArg>
                                     </extensionArgs>
                                 </xsdOption>
                             </xsdOptions>
