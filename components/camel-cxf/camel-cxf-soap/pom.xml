@@ -278,6 +278,7 @@
                         <configuration>
                             <testSourceRoot>${basedir}/target/generated/src/test/java</testSourceRoot>
                             <defaultOptions>
+                                <markGenerated>false</markGenerated>
                                 <frontEnd>jaxws</frontEnd>
                             </defaultOptions>
                             <wsdlOptions>

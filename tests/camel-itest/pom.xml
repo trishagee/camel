@@ -417,6 +417,9 @@
                         <phase>generate-sources</phase>
                         <configuration>
                             <testSourceRoot>${basedir}/target/generated/src/test/java</testSourceRoot>
+                            <defaultOptions>
+                                <markGenerated>false</markGenerated>
+                            </defaultOptions>
                             <wsdlOptions>
                                 <wsdlOption>
                                     <frontEnd>jaxws</frontEnd>
