@@ -310,21 +310,27 @@
                             <wsdlOptions>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/mtom.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/hello_world_wssec.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/MultiPartTest.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/person.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/order.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/person-non-wrapper.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <extraargs>
                                         <extraarg>-b</extraarg>
                                         <extraarg>${basedir}/src/test/resources/person-non-wrapper-binding.xml
@@ -333,12 +339,14 @@
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/soap_header.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <extraargs>
                                         <extraarg>-verbose</extraarg>
                                     </extraargs>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/pizza_service.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <extraargs>
                                         <extraarg>-exsh</extraarg>
                                         <extraarg>true</extraarg>

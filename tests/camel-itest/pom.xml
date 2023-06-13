@@ -417,20 +417,20 @@
                         <phase>generate-sources</phase>
                         <configuration>
                             <testSourceRoot>${basedir}/target/generated/src/test/java</testSourceRoot>
-                            <defaultOptions>
-                                <markGenerated>false</markGenerated>
-                            </defaultOptions>
                             <wsdlOptions>
                                 <wsdlOption>
                                     <frontEnd>jaxws</frontEnd>
                                     <wsdl>${basedir}/src/test/resources/wsdl/CustomerService-1.0.0.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <frontEnd>jaxws</frontEnd>
                                     <wsdl>${basedir}/src/test/resources/wsdl/CustomerService_noSoapAction.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/wsdl/hello_world.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <frontEnd>jaxws</frontEnd>
                                     <bindingFiles>
                                         <bindingFile>${basedir}/src/test/resources/wsdl/binding.xml</bindingFile>
