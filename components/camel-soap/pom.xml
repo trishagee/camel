@@ -129,6 +129,7 @@
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-xjc-plugin</artifactId>
                 <version>${cxf-xjc-plugin-version}</version>
+<!--                TODO-->
                 <executions>
                     <execution>
                         <id>generate-sources-jaxb</id>
@@ -213,6 +214,7 @@
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/CustomerService.wsdl
                                     </wsdl>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
+                                    <markGenerated>false</markGenerated>
                                     <bindingFiles>
                                         <bindingFile>
                                             ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/binding.xml
@@ -224,12 +226,14 @@
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/CustomerService2.wsdl
                                     </wsdl>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
+                                    <markGenerated>false</markGenerated>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/MultiPartCustomerService.wsdl
                                     </wsdl>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
+                                    <markGenerated>false</markGenerated>
                                     <bindingFiles>
                                         <bindingFile>
                                             ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/binding.xml
@@ -241,6 +245,7 @@
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/TestService.wsdl
                                     </wsdl>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
+                                    <markGenerated>false</markGenerated>
                                 </wsdlOption>
                             </wsdlOptions>
                         </configuration>
