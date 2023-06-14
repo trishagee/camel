@@ -174,18 +174,21 @@
                                     <xsd>${basedir}/src/main/resources/soap.xsd</xsd>
                                     <extensionArgs>
                                         <extensionArg>-Xfluent-api</extensionArg>
+                                        <extensionArg>-no-header</extensionArg>
                                     </extensionArgs>
                                 </xsdOption>
                                 <xsdOption>
                                     <xsd>${basedir}/src/main/resources/soap12.xsd</xsd>
                                     <extensionArgs>
                                         <extensionArg>-Xfluent-api</extensionArg>
+                                        <extensionArg>-no-header</extensionArg>
                                     </extensionArgs>
                                 </xsdOption>
                                 <xsdOption>
                                     <xsd>${basedir}/src/main/resources/xml.xsd</xsd>
                                     <extensionArgs>
                                         <extensionArg>-Xfluent-api</extensionArg>
+                                        <extensionArg>-no-header</extensionArg>
                                     </extensionArgs>
                                 </xsdOption>
                             </xsdOptions>
