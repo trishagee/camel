@@ -284,18 +284,22 @@
                             <wsdlOptions>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/MultiPartTest.wsdl</wsdl>
+                                    <wsdlLocation>classpath:MultiPartTest.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/person.wsdl</wsdl>
+                                    <wsdlLocation>classpath:person.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/order.wsdl</wsdl>
+                                    <wsdlLocation>classpath:order.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/person-non-wrapper.wsdl</wsdl>
+                                    <wsdlLocation>classpath:person-non-wrapper.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <extraargs>
                                         <extraarg>-b</extraarg>
@@ -305,6 +309,7 @@
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/soap_header.wsdl</wsdl>
+                                    <wsdlLocation>classpath:soap_header.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <extraargs>
                                         <extraarg>-verbose</extraarg>
@@ -312,6 +317,7 @@
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/pizza_service.wsdl</wsdl>
+                                    <wsdlLocation>classpath:pizza_service.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <extraargs>
                                         <extraarg>-exsh</extraarg>

@@ -310,31 +310,37 @@
                             <wsdlOptions>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/mtom.wsdl</wsdl>
+                                    <wsdlLocation>classpath:mtom.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/hello_world_wssec.wsdl</wsdl>
+                                    <wsdlLocation>classpath:hello_world_wssec.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/MultiPartTest.wsdl</wsdl>
+                                    <wsdlLocation>classpath:MultiPartTest.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/person.wsdl</wsdl>
+                                    <wsdlLocation>classpath:person.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/order.wsdl</wsdl>
+                                    <wsdlLocation>classpath:order.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/person-non-wrapper.wsdl</wsdl>
+                                    <wsdlLocation>classpath:person-non-wrapper.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                     <extraargs>
@@ -345,6 +351,7 @@
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/soap_header.wsdl</wsdl>
+                                    <wsdlLocation>classpath:soap_header.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                     <extraargs>
@@ -353,6 +360,7 @@
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/pizza_service.wsdl</wsdl>
+                                    <wsdlLocation>classpath:pizza_service.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                     <extraargs>
