@@ -397,6 +397,21 @@
                     <version>${maven-surefire-plugin-version}</version>
                 </plugin>
                 <plugin>
+                    <groupId>com.gradle</groupId>
+                    <artifactId>gradle-enterprise-maven-extension</artifactId>
+                    <configuration>
+                        <gradleEnterprise>
+                            <normalization>
+                                <runtimeClassPath>
+                                    <ignoredFiles>
+                                        <ignoredFile>META-INF/jandex.idx</ignoredFile>
+                                    </ignoredFiles>
+                                </runtimeClassPath>
+                            </normalization>
+                        </gradleEnterprise>
+                    </configuration>
+                </plugin>
+                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>${maven-javadoc-plugin-version}</version>
