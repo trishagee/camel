@@ -173,18 +173,21 @@
                                     <xsd>${basedir}/src/main/resources/soap.xsd</xsd>
                                     <extensionArgs>
                                         <extensionArg>-Xfluent-api</extensionArg>
+                                        <extensionArg>-no-header</extensionArg>
                                     </extensionArgs>
                                 </xsdOption>
                                 <xsdOption>
                                     <xsd>${basedir}/src/main/resources/soap12.xsd</xsd>
                                     <extensionArgs>
                                         <extensionArg>-Xfluent-api</extensionArg>
+                                        <extensionArg>-no-header</extensionArg>
                                     </extensionArgs>
                                 </xsdOption>
                                 <xsdOption>
                                     <xsd>${basedir}/src/main/resources/xml.xsd</xsd>
                                     <extensionArgs>
                                         <extensionArg>-Xfluent-api</extensionArg>
+                                        <extensionArg>-no-header</extensionArg>
                                     </extensionArgs>
                                 </xsdOption>
                             </xsdOptions>
@@ -212,6 +215,8 @@
                                     <wsdl>
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/CustomerService.wsdl
                                     </wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
+                                    <markGenerated>false</markGenerated>
                                     <bindingFiles>
                                         <bindingFile>
                                             ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/binding.xml
@@ -222,11 +227,15 @@
                                     <wsdl>
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/CustomerService2.wsdl
                                     </wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
+                                    <markGenerated>false</markGenerated>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/MultiPartCustomerService.wsdl
                                     </wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
+                                    <markGenerated>false</markGenerated>
                                     <bindingFiles>
                                         <bindingFile>
                                             ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/binding.xml
@@ -237,6 +246,8 @@
                                     <wsdl>
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/TestService.wsdl
                                     </wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
+                                    <markGenerated>false</markGenerated>
                                 </wsdlOption>
                             </wsdlOptions>
                         </configuration>

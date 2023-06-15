@@ -96,6 +96,8 @@
                             <wsdlOptions>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/person.wsdl</wsdl>
+                                    <suppressGeneratedDate>true</suppressGeneratedDate>
+                                    <markGenerated>false</markGenerated>
                                 </wsdlOption>
                             </wsdlOptions>
                         </configuration>
