@@ -215,6 +215,7 @@
                                     <wsdl>
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/CustomerService.wsdl
                                     </wsdl>
+                                    <wsdlLocation>classpath:org/apache/camel/dataformat/soap/CustomerService.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                     <bindingFiles>
@@ -227,6 +228,7 @@
                                     <wsdl>
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/CustomerService2.wsdl
                                     </wsdl>
+                                    <wsdlLocation>classpath:org/apache/camel/dataformat/soap/CustomerService2.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                 </wsdlOption>
@@ -234,6 +236,7 @@
                                     <wsdl>
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/MultiPartCustomerService.wsdl
                                     </wsdl>
+                                    <wsdlLocation>classpath:org/apache/camel/dataformat/soap/MultiPartCustomerService.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                     <bindingFiles>
@@ -246,6 +249,7 @@
                                     <wsdl>
                                         ${basedir}/src/test/resources/org/apache/camel/dataformat/soap/TestService.wsdl
                                     </wsdl>
+                                    <wsdlLocation>classpath:org/apache/camel/dataformat/soap/TestService.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                 </wsdlOption>

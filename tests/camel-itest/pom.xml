@@ -421,17 +421,20 @@
                                 <wsdlOption>
                                     <frontEnd>jaxws</frontEnd>
                                     <wsdl>${basedir}/src/test/resources/wsdl/CustomerService-1.0.0.wsdl</wsdl>
+                                    <wsdlLocation>classpath:wsdl/CustomerService-1.0.0.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <frontEnd>jaxws</frontEnd>
                                     <wsdl>${basedir}/src/test/resources/wsdl/CustomerService_noSoapAction.wsdl</wsdl>
+                                    <wsdlLocation>classpath:wsdl/CustomerService_noSoapAction.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/test/resources/wsdl/hello_world.wsdl</wsdl>
+                                    <wsdlLocation>classpath:wsdl/hello_world.wsdl</wsdlLocation>
                                     <suppressGeneratedDate>true</suppressGeneratedDate>
                                     <markGenerated>false</markGenerated>
                                     <frontEnd>jaxws</frontEnd>
