@@ -3,7 +3,7 @@
     "kind": "model",
     "name": "errorHandler",
     "title": "Error Handler",
-    "description": "Error handler settings 1",
+    "description": "Error handler settings",
     "deprecated": false,
     "label": "spring,configuration,error",
     "javaType": "org.apache.camel.spring.xml.SpringErrorHandlerDefinition",

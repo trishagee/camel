@@ -28,7 +28,7 @@ import org.apache.camel.processor.errorhandler.RedeliveryPolicy;
 import org.apache.camel.spi.Metadata;
 
 /**
- * Error handler settings 1
+ * Error handler settings
  */
 @Metadata(label = "spring,configuration,error")
 @XmlRootElement(name = "errorHandler")
